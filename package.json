@@ -1,9 +1,9 @@
 {
-  "name": "react-component-boilerplate",
-  "description": "Boilerplate for React.js components",
-  "author": "Juho Vepsalainen",
-  "user": "survivejs",
-  "version": "6.1.2",
+  "name": "react-formik-formbuilder",
+  "description": "FormBuilder for React using Formik",
+  "author": "Spencer Thornock",
+  "user": "tegument",
+  "version": "0.0.1",
   "scripts": {
     "start": "catalog start docs",
     "test": "jest",
@@ -23,6 +23,8 @@
   "module": "dist-es6",
   "jsnext:main": "dist-es6",
   "devDependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
@@ -42,6 +44,7 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
+    "formik": "^2.0.5",
     "gh-pages": "^1.1.0",
     "git-prepush-hook": "^1.0.2",
     "jest": "^22.4.2",
@@ -84,5 +87,8 @@
   "license": "MIT",
   "pre-push": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
 }

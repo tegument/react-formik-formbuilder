@@ -1,26 +1,14 @@
-[![build status](https://secure.travis-ci.org/survivejs/react-component-boilerplate.svg)](http://travis-ci.org/survivejs/react-component-boilerplate) [![Dependency Status](https://david-dm.org/survivejs/react-component-boilerplate.svg)](https://david-dm.org/survivejs/react-component-boilerplate)
+# react-formik-formbuilder - A FormBuilder for React using Formik
 
-# react-component-boilerplate - Boilerplate for React.js components
-
-This is a simple boilerplate that has been developed to make it easier to develop React components and small projects.
-
-> Check out [SurviveJS - Webpack and React](http://survivejs.com/) to dig deeper into the topic.
+This is a simple FormBuilder to create JSON configuratble forms using Formik with custm Fields supporting Material-UI and React-Native with react-native-paper
 
 ## Basic Usage
 
-Clone the repo : `git clone https://github.com/survivejs/react-component-boilerplate my-component`.
+```
+yarn add react-formik-formbuilder
+```
 
-To get started with fresh history, do this:
-
-1. `cd my-component`
-2. `rm -rf .git` (or in Windows `rmdir .git /S /Q`) - Remove Git database
-3. `git init` - Initialize a new Git repository
-4. `git add .` - Add all files to staging
-5. `git commit -am "Initial commit"` - Commit the files
-
-After this you should push the project to some remote.
-
-If you want to replace project meta information (author etc.), consider using a tool like [replace-project-meta](https://www.npmjs.com/package/replace-project-meta).
+## Development
 
 ### Common Tasks
 
@@ -48,14 +36,9 @@ The boilerplate includes a [GitHub Pages](https://pages.github.com/) specific po
 ## Highlighting Demo for the Site
 
 ```js
-var a = 5;
-var b = 10;
-
-// just trying out code highlighting feature here
-console.log(a + b);
+<FormBuilder name="MyForm" />
 ```
 
 ## License
 
-*react-component-boilerplate* is available under MIT. See LICENSE for more details.
-
+*react-formik-formbuilder* is available under MIT. See LICENSE for more details.
